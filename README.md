@@ -76,7 +76,7 @@ WHERE rank = 1;
 ```
 **Objective:**  Identify the most frequently occurring rating for each type of content.
 
-### 3.  List All Movies Released in a Specific Year (e.g., 2020)
+### 3. List All Movies Released in a Specific Year (e.g., 2020)
 ```sql
 SELECT * 
 FROM netflix
@@ -151,7 +151,7 @@ GROUP BY 1;
 ```
 **Objective:** Count the number of content items in each genre.
 
-### 10.Find each year and the average numbers of content release in India on netflix, return top 5 year with highest avg content release!
+### 10. Find each year and the average numbers of content release in India on netflix, return top 5 year with highest avg content release!
 ```sql
 SELECT 
     country,
